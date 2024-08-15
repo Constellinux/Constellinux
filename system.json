@@ -2,7 +2,7 @@
     "Name":"Constellinux",
     "Author":"ThatBeaverDev",
     "startup":[
-        "/files.crl"
+        "/sys/crl/files.crl"
     ],
     "files":[
         {
