@@ -1,4 +1,5 @@
 /@ event frame:
 @ 0 -360
 {img "icn" 1 "square 0 0 500 50"}
-pane -500 -310 500 -410 #fff
+pane -505 -305 505 -415 #fff
+pane -500 -310 500 -410 #000
