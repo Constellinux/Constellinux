@@ -13,6 +13,10 @@
         {
             "location": "/desktop.crl",
             "directory": "/sys/crl/desktop.crl"
+        },
+        {
+            "location":"/dock.crl",
+            "directory":"/sys/crl/dock.crl"
         }
     ],
     "specialperms":{
