@@ -2,12 +2,22 @@
     "Name":"Constellinux",
     "Author":"ThatBeaverDev",
     "startup":[
+        "/sys/crl/desktop.crl",
         "/sys/crl/files.crl"
     ],
     "files":[
         {
             "location":"/files.crl",
             "directory":"/sys/crl/files.crl"
+        },
+        {
+            "location": "/desktop.crl",
+            "directory": "/sys/crl/desktop.crl"
         }
-    ]
+    ],
+    "specialperms":{
+        "/sys/crl/desktop.crl":[
+            "wallpaper"
+        ]
+    }
 }
