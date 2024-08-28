@@ -3,6 +3,7 @@
     "Author":"ThatBeaverDev",
     "startup":[
         "/sys/crl/desktop.crl",
+        "/sys/crl/dock.crl",
         "/sys/crl/files.crl"
     ],
     "files":[
