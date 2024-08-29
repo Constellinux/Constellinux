@@ -8,7 +8,7 @@ var apps = (sysr openapps)
 var i = 0
 label 'initAPPSloop'
 var i + 1
-@ ((pos x) + 50) (pos y)
+@x + 50
 img "icn" 1 (sysr "appicon" (var i))
 
 if ((var i) < (array "length" (sysr openapps))) {
