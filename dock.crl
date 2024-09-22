@@ -1,16 +1,2 @@
 /@ event frame:
-@ 0 -360
-pane -1000 -305 1000 -415 #fff
-pane -1000 -310 1000 -410 #000
-
-var apps = (sysr openapps)
-@ -600 -350
-var i = 0
-label 'initAPPSloop'
-var i + 1
-@x + 50
-img "icn" 1 (sysr "appicon" (var i))
-
-if ((var i) < (array "length" (sysr openapps))) {
-    jumpto "initAPPSloop"
-}
+sysr dock

@@ -6,6 +6,8 @@
         "/sys/crl/dock.crl",
         "/sys/crl/files.crl"
     ],
+    "roturAuth":true,
+    "startAppShortcut":true,
     "files":[
         {
             "location":"/files.crl",
