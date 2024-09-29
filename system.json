@@ -9,6 +9,7 @@
     ],
     "roturAuth":true,
     "startAppShortcut":true,
+    "persistentFiles":true,
     "files":[
         {
             "location":"/files.crl",
