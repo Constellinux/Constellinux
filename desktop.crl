@@ -1,2 +1,4 @@
+/@ event start:
+window hide
 /@ event frame:
 sysr wallpaper
