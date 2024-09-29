@@ -3,9 +3,9 @@
     "author":"ThatBeaverDev",
     "version":"0.0.3",
     "startup":[
-        "/sys/crl/desktop.crl",
-        "/sys/crl/dock.crl",
-        "/sys/crl/files.crl"
+        "sys/crl/desktop.crl",
+        "sys/crl/dock.crl",
+        "sys/crl/files.crl"
     ],
     "roturAuth":true,
     "startAppShortcut":true,
@@ -13,19 +13,19 @@
     "files":[
         {
             "location":"/files.crl",
-            "directory":"/sys/crl/files.crl"
+            "directory":"sys/crl/files.crl"
         },
         {
             "location": "/desktop.crl",
-            "directory": "/sys/crl/desktop.crl"
+            "directory": "sys/crl/desktop.crl"
         },
         {
             "location":"/dock.crl",
-            "directory":"/sys/crl/dock.crl"
+            "directory":"sys/crl/dock.crl"
         }
     ],
     "specialperms":{
-        "/sys/crl/desktop.crl":[
+        "sys/crl/desktop.crl":[
             "sysr"
         ]
     }
