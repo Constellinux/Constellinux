@@ -1,7 +1,7 @@
 {
-    "Name":"Constellinux",
-    "Author":"ThatBeaverDev",
-    "Version":"0.0.3",
+    "name":"Constellinux",
+    "author":"ThatBeaverDev",
+    "version":"0.0.3",
     "startup":[
         "/sys/crl/desktop.crl",
         "/sys/crl/dock.crl",
