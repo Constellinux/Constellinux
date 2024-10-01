@@ -22,6 +22,10 @@
         {
             "location":"/dock.crl",
             "directory":"sys/crl/dock.crl"
+        },
+        {
+            "location":"/Wallpapers/kevin-wang-EuTlfLqYWp8-unsplash.jpg",
+            "directory":"sys/wallpapers/kevin-wang-canyon.jpg"
         }
     ],
     "specialperms":{
