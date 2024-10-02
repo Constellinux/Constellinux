@@ -7,7 +7,7 @@
         "sys/crl/dock.crl",
         "sys/crl/files.crl"
     ],
-    "roturAuth":true,
+    "roturAuth":false,
     "startAppShortcut":true,
     "persistentFiles":true,
     "files":[
