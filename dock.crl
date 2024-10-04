@@ -1,4 +1,16 @@
 /@ event start:
 window hide
 /@ event frame:
-sysr dock
+blur 0 -360 2000 25
+var openapps = (sysr openappsparse)
+var e = 0
+var e2 = 0
+@ -615 -345
+repeat (array length (var openapps)) {
+	var e2 = (sysr appicon (array item (var e) (var openapps)))
+	if ((var e2) != "") {
+		img "icn" 1 (var e2)
+		@x + 35
+	}
+	var e = ((var e) + 1)
+}
