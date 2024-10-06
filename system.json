@@ -13,7 +13,7 @@
         },
         {
             "name":"/sys/crl/files.crl}",
-            "windowed":false
+            "windowed":true
         }
     ],
     "roturAuth":false,
