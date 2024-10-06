@@ -3,9 +3,18 @@
     "author":"ThatBeaverDev",
     "version":"0.0.3",
     "startup":[
-        "/sys/crl/desktop.crl",
-        "/sys/crl/dock.crl",
-        "/sys/crl/files.crl"
+        {
+            "name":"/sys/crl/desktop.crl",
+            "windowed":false
+        },
+        {
+            "name":"/sys/crl/dock.crl",
+            "windowed":false
+        },
+        {
+            "name":"/sys/crl/files.crl}",
+            "windowed":false
+        }
     ],
     "roturAuth":false,
     "startAppShortcut":true,
@@ -13,18 +22,15 @@
     "files":[
         {
             "location":"/files.crl",
-            "directory":"/sys/crl/files.crl",
-            "windowed":false
+            "directory":"/sys/crl/files.crl"
         },
         {
             "location": "/desktop.crl",
-            "directory": "/sys/crl/desktop.crl",
-            "windowed":false
+            "directory": "/sys/crl/desktop.crl"
         },
         {
             "location":"/dock.crl",
-            "directory":"/sys/crl/dock.crl",
-            "windowed":false
+            "directory":"/sys/crl/dock.crl"
         },
         {
             "location":"/Wallpapers/kevin-wang-EuTlfLqYWp8-unsplash.jpg",
