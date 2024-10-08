@@ -12,7 +12,7 @@
             "windowed":false
         },
         {
-            "name":"/sys/crl/files.crl}",
+            "name":"/sys/crl/files.crl",
             "windowed":true
         }
     ],
