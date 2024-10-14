@@ -33,6 +33,10 @@
             "directory":"/sys/crl/dock.crl"
         },
         {
+            "location":"/loginsys.crl",
+            "directory":"/sys/crl/login.crl"
+        },
+        {
             "location":"/Wallpapers/kevin-wang-EuTlfLqYWp8-unsplash.jpg",
             "directory":"/sys/wallpapers/kevin-wang-canyon.jpg"
         }
