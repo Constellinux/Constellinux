@@ -1,5 +1,5 @@
 /@ event start:
-window seticon "c #A9A9A9 line 0 10 -10 -10 line 0 10 10 -10 c #fff cutcircle 0 10 5 0 180 cutcircle -10 -10 5 0 180 cutcircle 10 -10 5 0 180"
+window seticon "w 3.75 c #A9A9A9 line 0 7.5 -7.5 -7.5 line 0 7.5 7.5 -7.5 c #fff cutcircle 0 7.5 3.75 0 180 cutcircle -7.5 -7.5 3.75 0 180 cutcircle 7.5 -7.5 3.75 0 180"
 window name "Files Manager"
 window setid "files"
 window setauthor "theconstellinuxproject"
