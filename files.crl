@@ -5,5 +5,6 @@ window setid "files"
 window setauthor "theconstellinuxproject"
 var dir = "/users"
 /@ event frame:
-var data = (drive ls (var dir))
-text (var data) 1
+
+var data = (drive ls (dir))
+text (data) 1
