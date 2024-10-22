@@ -7,4 +7,5 @@ var dir = "/users"
 /@ event frame:
 
 var data = (drive ls (dir))
-text (data) 1
+text (dir) 1
+text (array join ""(data)) 1
