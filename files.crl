@@ -1,11 +1,11 @@
 /@ event start:
-window seticon "w 3.75 c #A9A9A9 line 0 7.5 -7.5 -7.5 line 0 7.5 7.5 -7.5 c #fff cutcircle 0 7.5 3.75 0 180 cutcircle -7.5 -7.5 3.75 0 180 cutcircle 7.5 -7.5 3.75 0 180"
-window name "Files Manager"
-window setid "files"
-window setauthor "theconstellinuxproject"
-var dir = "/users"
-/@ event frame:
+window.icon = "w 3.75 c #A9A9A9 line 0 7.5 -7.5 -7.5 line 0 7.5 7.5 -7.5 c #fff cutcircle 0 7.5 3.75 0 180 cutcircle -7.5 -7.5 3.75 0 180 cutcircle 7.5 -7.5 3.75 0 180"
+window.name = "Files Manager"
+window.id = "files"
+window.author = "theConstellinuxProject"
+dir = "/users"
 
-var data = (drive ls (dir))
-text (dir) 1
-text (array join ""(data)) 1
+/@ event frame:
+data = drive.ls(data)
+text(dir,1)
+text(array.join(data),1)
