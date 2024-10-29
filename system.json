@@ -43,7 +43,10 @@
     ],
     "specialperms":{
         "/sys/crl/desktop.crl":[
-            "sysr"
+            "sys"
+        ],
+        "/sys/crl/dock.crl":[
+            "sys"
         ]
     }
 }

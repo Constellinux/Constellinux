@@ -1,2 +1,2 @@
 /@ event frame:
-sysr dock
+sys.renderDock()
