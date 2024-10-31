@@ -8,4 +8,4 @@ dir = "/users"
 /@ event frame:
 data = drive.ls(dir)
 text(dir,1)
-text(array.join((data),1)
+text(array.join(data; 1))
