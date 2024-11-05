@@ -3,9 +3,8 @@ window.icon = "w 3.75 c #A9A9A9 line 0 7.5 -7.5 -7.5 line 0 7.5 7.5 -7.5 c #fff 
 window.name = "Files Manager"
 window.id = "files"
 window.author = "theConstellinuxProject"
-dir = "/users"
+dir = "/"
 
 /@ event frame:
-data = drive.ls(dir)
-ui.text(dir; 1)
-ui.text(array.join(data); 1)
+ui.text(dir; 2)
+ui.text(drive.ls(dir); 2)
