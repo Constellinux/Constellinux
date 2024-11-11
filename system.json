@@ -16,7 +16,7 @@
             "windowed":true
         }
     ],
-    "roturAuth":false,
+    "roturAuth":true,
     "startAppShortcut":true,
     "files":[
         {
