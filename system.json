@@ -14,7 +14,7 @@
         {
             "name":"/sys/crl/files.crl",
             "windowed":true
-        }
+        },
         {
             "name":"/sys/crl/menubar.crl",
             "windowed":true
