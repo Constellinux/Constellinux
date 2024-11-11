@@ -15,6 +15,10 @@
             "name":"/sys/crl/files.crl",
             "windowed":true
         }
+        {
+            "name":"/sys/crl/menubar.crl",
+            "windowed":true
+        }
     ],
     "roturAuth":true,
     "startAppShortcut":true,
@@ -34,6 +38,10 @@
         {
             "location":"/loginsys.crl",
             "directory":"/sys/crl/login.crl"
+        },
+        {
+            "location":"/menubar.crl",
+            "directory":"/sys/crl/menubar.crl"
         },
         {
             "location":"/Wallpapers/kevin-wang-EuTlfLqYWp8-unsplash.jpg",
