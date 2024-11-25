@@ -2,6 +2,7 @@
     "name":"Constellinux",
     "author":"ThatBeaverDev",
     "version":"0.0.4",
+    "buildNumber":"4",
     "startup":[
         {
             "name":"/sys/crl/desktop.crl",
@@ -42,10 +43,6 @@
         {
             "location":"/menubar.crl",
             "directory":"/sys/crl/menubar.crl"
-        },
-        {
-            "location":"/Wallpapers/kevin-wang-EuTlfLqYWp8-unsplash.jpg",
-            "directory":"/sys/wallpapers/kevin-wang-canyon.jpg"
         }
     ],
     "specialperms":{
@@ -53,6 +50,12 @@
             "sys"
         ],
         "/sys/crl/dock.crl":[
+            "sys"
+        ],
+        "/sys/crl/menubar.crl":[
+            "sys"
+        ],
+        "/sys/crl/settings.crl":[
             "sys"
         ]
     }
