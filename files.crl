@@ -6,5 +6,5 @@ window.author = "theConstellinuxProject"
 dir = "/"
 
 /@ event frame:
-ui.text(dir; 2)
-ui.text(drive.ls(dir); 2)
+window.name = join("Files Manager - "; dir)
+ui.tabs(drive.ls(dir))
