@@ -39,6 +39,10 @@
         {
             "location":"/menubar.crl",
             "directory":"/sys/crl/menubar.crl"
+        },
+        {
+            "location":"/terminal.crl",
+            "directory":"/sys/crl/terminal.crl"
         }
     ],
     "specialperms":{
