@@ -1,0 +1,10 @@
+/@ event start:
+window.name = "TCP Terminal"
+window.id = "terminal"
+window.author = "theConstellinuxProject"
+cat.start()
+
+/@ event frame:
+window.name = join("TCP Terminal - "; cat.dir)
+ui.tabs(cat.logs; 2)
+cat.prompt(key.hit("Space"))
