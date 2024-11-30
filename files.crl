@@ -4,7 +4,10 @@ window.name = "Files Manager"
 window.id = "files"
 window.author = "theConstellinuxProject"
 dir = "/"
+filetype.claim("folder")
 
 /@ event frame:
-window.name = join("Files Manager - "; dir)
+ui.text("Press Space to Change Directory."; 1)
+dir = prompt(key.hit("Space"); "Enter the Directory you would like to view")
+window.name = join("Files Explorer - "; dir)
 ui.tabs(drive.ls(dir))

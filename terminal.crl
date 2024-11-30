@@ -7,5 +7,6 @@ cat.start()
 
 /@ event frame:
 window.name = join("TCP Terminal - "; cat.dir)
+ui.text("Press Space to enter a CAT command."; 1)
 ui.tabs(cat.logs; 2)
 cat.prompt(key.hit("Space"))

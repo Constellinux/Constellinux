@@ -1,6 +1,7 @@
 {
     "name":"Constellinux",
     "author":"ThatBeaverDev",
+    "constelloVersion":4,
     "version":"0.0.4",
     "buildNumber":"4",
     "startup":[
