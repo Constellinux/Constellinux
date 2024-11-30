@@ -1,7 +1,9 @@
 {
     "name":"Constellinux",
     "author":"ThatBeaverDev",
-    "version":"0.0.3",
+    "constelloVersion":4,
+    "version":"0.0.4",
+    "buildNumber":"4",
     "startup":[
         {
             "name":"/sys/crl/desktop.crl",
@@ -14,11 +16,14 @@
         {
             "name":"/sys/crl/files.crl",
             "windowed":true
+        },
+        {
+            "name":"/sys/crl/menubar.crl",
+            "windowed":false
         }
     ],
-    "roturAuth":false,
+    "roturAuth":true,
     "startAppShortcut":true,
-    "persistentFiles":true,
     "files":[
         {
             "location":"/files.crl",
@@ -33,17 +38,26 @@
             "directory":"/sys/crl/dock.crl"
         },
         {
-            "location":"/loginsys.crl",
-            "directory":"/sys/crl/login.crl"
+            "location":"/menubar.crl",
+            "directory":"/sys/crl/menubar.crl"
         },
         {
-            "location":"/Wallpapers/kevin-wang-EuTlfLqYWp8-unsplash.jpg",
-            "directory":"/sys/wallpapers/kevin-wang-canyon.jpg"
+            "location":"/terminal.crl",
+            "directory":"/sys/crl/terminal.crl"
         }
     ],
     "specialperms":{
         "/sys/crl/desktop.crl":[
-            "sysr"
+            "sys"
+        ],
+        "/sys/crl/dock.crl":[
+            "sys"
+        ],
+        "/sys/crl/menubar.crl":[
+            "sys"
+        ],
+        "/sys/crl/settings.crl":[
+            "sys"
         ]
     }
 }

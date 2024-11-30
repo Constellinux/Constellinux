@@ -1,11 +1,13 @@
 /@ event start:
-window seticon "w 3.75 c #A9A9A9 line 0 7.5 -7.5 -7.5 line 0 7.5 7.5 -7.5 c #fff cutcircle 0 7.5 3.75 0 180 cutcircle -7.5 -7.5 3.75 0 180 cutcircle 7.5 -7.5 3.75 0 180"
-window name "Files Manager"
-window setid "files"
-window setauthor "theconstellinuxproject"
-var dir = "/users"
-/@ event frame:
+window.icon = "w 3.75 c #A9A9A9 line 0 7.5 -7.5 -7.5 line 0 7.5 7.5 -7.5 c #fff cutcircle 0 7.5 3.75 0 180 cutcircle -7.5 -7.5 3.75 0 180 cutcircle 7.5 -7.5 3.75 0 180"
+window.name = "Files Manager"
+window.id = "files"
+window.author = "theConstellinuxProject"
+dir = "/"
+filetype.claim("folder")
 
-var data = (drive ls (dir))
-text (dir) 1
-text (array join ""(data)) 1
+/@ event frame:
+ui.text("Press Space to Change Directory."; 1)
+dir = prompt(key.hit("Space"); "Enter the Directory you would like to view")
+window.name = join("Files Explorer - "; dir)
+ui.tabs(drive.ls(dir))

@@ -1,0 +1,2 @@
+/@ event frame:
+sys.renderMenuBar()
