@@ -4,7 +4,7 @@
     "constelloVersion":4,
     "version":"0.0.4",
     "buildNumber":"4",
-    "startupSound":true,
+    "startupSound":false,
     "startup":[
         {
             "name":"/sys/crl/desktop.crl",
